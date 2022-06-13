@@ -1,0 +1,135 @@
+#table {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 100px auto;
+    position: relative;
+}
+
+#square_b {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+
+    animation: move-square_b 3.2s infinite;
+    /* animation-iteration-count: 6; */
+    /* animation-fill-mode: both; */
+}
+
+@keyframes move-square_b {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+    }
+    50% {
+        top: 300px;
+        right: 0;
+    }
+    75% {
+        right: 300px;
+        bottom: 0;
+    }
+    100% {
+        bottom: 300px;
+    }
+}
+
+#square_g {
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    animation: move-square_g 3.5s infinite;
+    /* animation-iteration-count: 6; */
+    /* animation-fill-mode: both; */
+}
+
+@keyframes move-square_g {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+    }
+    50% {
+        top: 300px;
+        right: 0;
+    }
+    75% {
+        right: 300px;
+        bottom: 0;
+    }
+    100% {
+        bottom: 300px;
+    }
+}
+
+#square_v {
+    width: 100px;
+    height: 100px;
+    background: violet;
+    position: absolute;
+    animation: move-square_v 4s infinite;
+    /* animation-iteration-count: 6; */
+    /* animation-fill-mode: both; */
+}
+
+@keyframes move-square_v {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+    }
+    50% {
+        top: 300px;
+        right: 0;
+    }
+    75% {
+        right: 300px;
+        bottom: 0;
+    }
+    100% {
+        bottom: 300px;
+    }
+}
+
+#square_y {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    animation: move-square_y 4.5s infinite;
+    /* animation-iteration-count: 6; */
+    /* animation-fill-mode: both; */
+}
+
+@keyframes move-square_y {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+    }
+    50% {
+        top: 300px;
+        right: 0;
+    }
+    75% {
+        right: 300px;
+        bottom: 0;
+    }
+    100% {
+        bottom: 300px;
+    }
+}
+
+
+

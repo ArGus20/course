@@ -1,0 +1,266 @@
+#table {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 100px auto;
+    background: white;
+
+    animation-name: move-table;
+    animation-duration: 14s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-table {
+    50% {
+        background: white;
+    }
+    100% {
+        background: black;
+    }
+}
+
+#house {
+    width: 100px;
+    height: 100px;
+    background: rgb(104, 139, 161);
+    position: relative;
+    bottom: 50px;
+
+    animation-name: move-house;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-house {
+    50% {
+        top: -50px;
+        left: 0px;
+    }
+    100% {
+        top: 300px;
+        left: 200px;
+    }
+}
+
+#door {
+    width: 40px;
+    height: 60px;
+    top: 38px;
+    right: 50px;
+    background: rgb(26, 70, 26);
+    border: 1px solid black;
+    position: absolute;
+}
+
+#window {
+    width: 25px;
+    height: 25px;
+    top: 38px;
+    right: 15px;
+    background: black;
+    border: 1px solid black;
+    position: absolute;
+
+    animation-name: move-window;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-window {
+    50% {
+        background: black;
+    }
+    100% {
+        background: yellow;
+    }
+}
+
+#foliage1 {
+    width: 60px;
+    height: 60px;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+
+    animation-name: move-foliage1;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-foliage1 {
+    50% {
+        top: 30px;
+        left: 0px;
+    }
+    100% {
+        top: 192px;
+        left: 80px;
+    }
+}
+
+
+#tree1 {
+    width: 20px;
+    height: 50px;
+    background: brown;
+    position: relative;
+    top: -30px;
+
+    animation-name: move-tree1;
+    animation-duration: 5.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-tree1 {
+    50% {
+        top: -30px;
+        left: 0px;
+    }
+    100% {
+        top: 130px;
+        left: 100px;
+    }
+}
+
+#roof {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid brown;
+    position: relative;
+    top: -20px;
+
+    animation-name: move-roof;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-roof {
+    50% {
+        top: -20px;
+        left: 0px;
+    }
+    100% {
+        top: -90px;
+        left: 180px;
+    }
+}
+
+#grass {
+    width: 100px;
+    height: 50px;
+    background: green;
+    position: relative;
+    top: 420px;
+
+    animation-name: move-grass;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-grass {
+    50% {
+        top: 420px;
+        width: 100px;
+    }
+    100% {
+        top: 450px;
+        width: 500px;
+    }
+}
+
+#foliage2 {
+    width: 60px;
+    height: 60px;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    left: 430px;
+    top: 20px;
+    z-index: 5;
+
+    animation-name: move-foliage2;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-foliage2 {
+    50% {
+        top: 20px;
+        left: 430px;
+    }
+    100% {
+        top: 132px;
+        left: 360px;
+    }
+}
+
+
+
+#tree2 {
+    width: 20px;
+    height: 50px;
+    background: brown;
+    position: relative;
+    left: 460px;
+    bottom: 30px;
+    z-index: 5;
+
+    animation-name: move-tree2;
+    animation-duration: 5.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-tree2 {
+    0% {
+        left: 460px;
+    }
+    50% {
+        left: 380px;
+        bottom: 30px;
+    }
+    100% {
+        left: 380px;
+        bottom: -80px;
+    }
+}
+
+#sun {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    left: 400px;
+    bottom: 90px;
+    z-index: 2;
+
+    animation-name: move-sun;
+    animation-duration: 11s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move-sun {
+    50% {
+        background: yellow;
+        left: 400px;
+        bottom: 90px;
+    }
+    100% {
+        background: white;
+        left: 320px;
+        bottom: 390px;
+    }
+}
