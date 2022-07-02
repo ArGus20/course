@@ -1,0 +1,173 @@
+.container {
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-1 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.task-2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.task-3 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-4 {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.task-5 {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-5-1 {
+    order: 2;
+}
+
+.item-5-2 {
+    order: -1;
+}
+
+.item-5-3 {
+    order: 1;
+}
+
+.task-6 {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-6-1 {
+    order: 1;
+}
+
+.item-6-2 {
+    order: 2;
+}
+
+.task-7 {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-7-1 {
+    order: 1;
+}
+
+.item-7-2 {
+    order: 3;
+}
+
+.item-7-3 {
+    order: 2;
+}
+
+.task-8 {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-8-1 {
+    order: 1;
+}
+
+.item-8-2 {
+    flex-grow: 2;
+}
+
+.item-8-3 {
+    order: 3;
+}
+
+.item-8-4 {
+    order: 2;
+    flex-grow: 2;
+}
+
+.task-9 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.item-9-1 {
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    background: lightskyblue;
+}
+
+.item-9-2 {
+    width: 100px;
+    height: 140px;
+    margin: 10px;
+    background: lightskyblue;
+}
+
+.item-9-3 {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background: lightskyblue;
+}
+
+.task-10 {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.item-10-1 {
+    align-self: center;
+}
+
+.item-10-2 {
+    align-self: center;
+}
+
+.task-11 {
+    justify-content: space-around;
+}
+
+.item-11-1 {
+    order: 1;
+}
+
+.item-11-2 {
+    order: 1;
+    align-self: flex-end;
+}
+
+.item-11-3 {
+    order: 0;
+    align-self: center;
+}
+
+.item-11-4 {
+    order: 1;
+}
+
