@@ -1,0 +1,40 @@
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 36px;
+    display: grid;
+    grid-template-areas: "one one one" 
+    "two two two" "three four five" "six six six";
+    grid-template-rows: 1fr 2fr 3fr 4fr;
+    grid-template-columns: 25% 25% 50%;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+#one, #two, #three, #four, #five, #six {
+    background: lightblue;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}

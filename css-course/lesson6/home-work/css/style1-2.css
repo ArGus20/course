@@ -1,0 +1,32 @@
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 36px;
+    display: grid;
+    grid-template-areas: "one" 
+    "two" "three" "four";
+    grid-template-rows: 4fr 2fr 2fr 2fr;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+#one, #two, #three, #four, #five, #six {
+    background: lightblue;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
